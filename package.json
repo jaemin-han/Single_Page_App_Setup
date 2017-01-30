@@ -4,15 +4,17 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "rebuild": "webpack -d --progress --colors",
+    "watch": "webpack -d --progress --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaemin-han/Single_Page_App_Setup.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jaemin Han",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jaemin-han/Single_Page_App_Setup/issues"
